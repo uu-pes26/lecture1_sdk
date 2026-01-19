@@ -16,7 +16,7 @@ In order to work with this presentation, a few things need to be installed:
 In order to clone this repository do the following: 
 
 ```bash 
-git clone --recursive https://github.com/uu-1dt106/lecture1_sdk.git 
+git clone --recursive https://github.com/uu-pes26/lecture1_sdk.git 
 ```
 
 ## Export slides to PDF 
@@ -31,5 +31,5 @@ mkdir screenshots
 decktape reveal index.html presentation.pdf --screenshots --screenshot-size='2048x1200'
 ```
 
-Now combine the resulting PNGs to a pdf with your preferred program. 
+Now combine the resulting PNGs to a PDF with your preferred program. 
 
