@@ -201,7 +201,7 @@
 	<ul>
 		<li><emph>New</emph> hardware</li>
 		<ul>
-			<li>Rasberry Pico => Rasberry Pi Pico 2</li>
+			<li>Rasberry Pi Pico => Rasberry Pi Pico 2</li>
 			<li>also, new boards, wires, capables, etc.</li>
 		</ul>
 		<li>Goal: each student receives a lab kit</li>
@@ -320,9 +320,10 @@
 
 <section>
 	<h3>CMakeLists.txt</h3>
-	<pre class="cmake"><code data-trim data-noescape data-line-numbers="|1|3,4,6|8|10,11|">
+	<pre class="cmake"><code data-trim data-noescape data-line-numbers="|1|3,4,5,7|9|11,12|">
 		cmake_minimum_required(VERSION 3.13)
 
+		set(PICO_BOARD pico2)
 		include(pico_sdk_import.cmake)
 		project(blinky) 
 		
