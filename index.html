@@ -84,35 +84,14 @@
 		<h1>Organization</h1>
 	</section>
 
-	<!-- <section>
-		<h3>Teachers</h3>
-		<div class="fourth-part">
-			<img class="photo" src="images/teachers/abdel.jpg">
-			<p class="name">Abdel</p>
-		</div>
-		<div class="fourth-part">
-			<img class="photo" src="images/teachers/huang.jpg">
-			<p class="name">Huang</p>
-		</div>
-		<div class="fourth-part">
-			<img class="photo" src="images/teachers/niu.jpg">
-			<p class="name">Niu</p>
-		</div>
-		<div class="fourth-part">
-			<img class="photo" src="images/teachers/paul.jpg">
-				<p class="name">Paul</p>
-			<img>
-		</div>
-	</section> -->
-
 	<section>
 		<h3>Course structure</h3>
 		<div class="fragment fade-up box">
 			Part 1: 1DT106, Period 3<br>
-			&plusmn;12 lectures, 4 labs
+			&plusmn;11 lectures, 4 labs
 		</div>
 		<div class="fragment fade-up box">
-			Exam: March 17th, 2025
+			Exam: March 19th, 2026
 		</div>
 		<div class="fragment fade-up box">
 			Part 2: 1DT108, Period 4<br>
@@ -134,6 +113,7 @@
 			<li>Join a group on Studium</li>
 			<li>Check Group Making discussion for help</li>
 		</ul>
+		<div class="fragment fade-up">
 		<li>Assessment:</li>
 		<ul>
 			<li>Pass/Fail</li>
@@ -147,6 +127,7 @@
 			</li>
 			<li> To pass, you need to present part of solution to staff</li>
 		</ul>
+		</div>
 	</ul>
 </section>
 
@@ -163,7 +144,7 @@
 <section>
 	<h3>Lab kits</h3>
 	<ul>
-		<li>Distributed during first lab to <emph>each student</emph></li>
+		<li>Distributed during first lab to <emph>each student</emph> (hopefully)</li>
 		<li>Yours for the duration of the course</li>
 		<li>If something breaks => inform teacher/TAs</li>
 		<li class="fragment highlight-red">Property of Uppsala University</li>
@@ -204,7 +185,7 @@
 <section>
 	<h3>Examination</h3>
 	<ul>
-		<li>March 17th, 2025</li>
+		<li>March 19th, 2026</li>
 		<li>On INSPERA</li>
 		<li>60 Points in total</li>
 		<ul>
@@ -215,6 +196,18 @@
 	</ul>
 </section>
 
+<section>
+	<h3>Compared to last year</h3>
+	<ul>
+		<li><emph>New</emph> hardware</li>
+		<ul>
+			<li>Rasberry Pico => Rasberry Pi Pico 2</li>
+			<li>also, new boards, wires, capables, etc.</li>
+		</ul>
+		<li>Goal: each student receives a lab kit</li>
+	</ul>
+</section>
+
 </section>
 
 <section>
@@ -222,23 +215,26 @@
 	<h1>Hardware</h1>
 </section>
 
-<section data-background-image="images/pico.jpg" data-background-opacity="1.0">
+<section data-background-image="images/pico-2.png" data-background-opacity="1.0">
 </section>
 
 <section data-background-color="white">
-	<img src="images/raspberry-pi-pico-pinout.png" alt="Raspberry Pi Pico Pinout">
+	<img src="images/pico-2-r4-pinout.png" alt="Raspberry Pi Pico 2 Pinout">
 </section>
 
 <section>
-	<h3>RP<font color="gray">2</font><font color="brown">0</font>40</h3>
+	<h3>Rasberry Pi Pico 2</h3>
 	<ul>
-		<li><font color="gray">Dual</font>-core ARM Cortex-M<font color="brown">0</font>+</li>
-		<li>264kB on-chip SRAM</li>
-		<li>2MB on-board flash</li>
-		<li>2x UART, 2x SPI, 2x I2C, 16x PWM</li>
-		<li>Programmable I/O</li>
-		<li>USB-drive bootloader</li>
-		<li>For more, <a href="https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf">check datasheet</a></li>
+		<li class="fragment fade-up">development platform for RP<font color="gray">2</font><font color="brown">3</font>50 uC</li>
+		<ul>
+			<li class="fragment fade-up"><font color="gray">dual</font>-core ARM Cortex-M<font color="brown">3</font>3</li>
+		</ul>
+		<li class="fragment fade-up">520kB on-chip SRAM</li>
+		<li class="fragment fade-up">4 MB of on-board flash memory</li>
+		<li class="fragment fade-up">2x UART, 2x SPI, 2x I2C, 24x PWM...</li>
+		<li class="fragment fade-up">Programmable I/O</li>
+		<li class="fragment fade-up">USB-drive bootloader</li>
+		<li class="fragment fade-up">For more on uC, <a href="https://pip-assets.raspberrypi.com/categories/1214-rp2350/documents/RP-008373-DS-2-rp2350-datasheet.pdf?disposition=inline">check datasheet</a></li>
 	</ul>
 </section>
 
